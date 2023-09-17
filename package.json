@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "gas-with-test",
+  "scripts": {
+    "test": "jest",
+    "format": "biome format --write ./src/**",
+    "lint": "biome check --apply ./src/**"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.2.2",
+    "@types/google-apps-script": "1.0.69",
+    "@types/jest": "29.5.5",
+    "jest": "29.7.0",
+    "jest-mock-extended": "3.0.5",
+    "ts-jest": "29.1.1",
+    "typescript": "5.2.2"
+  }
+}
